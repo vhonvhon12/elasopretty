@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>2026 CALENDAR</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('myprettybaby.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.table {
+collapse:collapse;
+width:100%
+}
+.calendar {
+    background: url('cinnamoroll.jpg') no-repeat center/cover;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.weekdays th {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 25px;
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: none; 
+    color: black;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.nav a:hover {
+    background-color: green;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.nav a:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.days td a{
+    text-decoration: none;
+    color: #000;
+}
+.days td {
+  border:1px solid #ccc;
+  padding: 20px 0;
+  text-align:center;
+}
+
+
+.days a:hover {
+    background: #ddd;
+}
+
+
+
+.blue-day {
+ background-color: rgba(0, 0, 255, 0.3);
+color:white;
+font-weight:bold;
+
+}
+</style>
+</head>
+<body>
+
+<div class="calendar">
+<h2 style="text-align:center;">December 2026</h2>
+
+<table class="days">
+<thead>
+<tr class="weekdays">
+<th style="color:red;">Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th style="color:black;">Sat</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td></td> 
+<td></td> 
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td style="color:green;">5</td>
+</tr>
+
+<tr>
+<td style="color:red;">6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td style="color:red;">13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+</tr>
+
+<tr>
+<td style="color:red;">20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td class="blue-day"><a href="dec25.html">25</a></td>
+<td>26</td>
+</tr>
+
+<tr>
+<td style="color:red;">27</td>
+<td>28</td>
+<td>29</td>
+<td class="blue-day"><a href="dec30.html">30</a></td>
+<td>31</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<div class="nav">
+<a href="2027.html">Next Year</a>
+<a href="November.html">Back to November</a>
+</div>
+
+</div>
+</body>
+</html>
